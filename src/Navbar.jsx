@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, AppBar, Avatar, Toolbar, Typography, Drawer, CssBaseline } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Divider from "@material-ui/core/Divider";
-import NotificationsRoundedIcon from '@material-ui/icons/NotificationsRounded';
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -73,7 +73,7 @@ const Navbar = () => {
                         style={{ width: 50, height: 50, marginRight: 80 }}
                     />
                     <Typography variant="h5" style={{ flexGrow: 1 }}>
-                        <Button style={{ backgroundColor: '#1E90FF', color: 'white' }} >Patients</Button>
+                        <Button style={{ backgroundColor: '#1E90FF', color: 'white'}} >Patients</Button>
                         <Button >Calender</Button>
                         <Button >Users</Button>
                         <Button >Billing</Button>

@@ -10,4 +10,4 @@ function Searchbar() {
   </div>
   );
 }
-export default Searchbar;
+export default Searchbar;  
